@@ -1,0 +1,79 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+  />
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>NEXTECH</h2>
+          <img src="../resources/img/logo.jpg" alt="" class="logo" />
+        </div>
+        <ul class="menu">
+          <li>
+            <a
+              href="#portfolio"
+              onclick="scrollToSection('portfolio')"
+              class="active"
+              >Introducción</a
+            >
+          </li>
+          <li><a href="../views/crucigrama.html">Dinámica</a></li>
+          <li><a href="../views/evaluacion.html">Evaluación</a></li>
+          <li><a href="../views/autoría.html">Autoría</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info-content">
+        <h1>Inteligencia financiera</h1>
+        <br />
+        <p>
+          La educación financiera es una habilidad crucial para cualquier persona que desee tener una vida financiera exitosa y sostenible. Esta habilidad implica conocer las diversas formas de ahorrar, invertir, gastar y proteger el dinero. Además, también incluye la capacidad de entender conceptos financieros complejos, como los impuestos, los seguros y los préstamos. Una persona con una buena educación financiera puede tomar decisiones informadas y estratégicas en relación con su dinero.
+        </p>
+        <br />
+        <br />
+        <a
+          href="#portfolio"
+          onclick="scrollToSection('portfolio')"
+          class="button"
+          >¡Comencemos!</a
+        >
+      </div>
+      <img src="../resources/img/finanz.jpg" alt="" />
+    </main>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br>
+
+  <div class="portfolio" id="portfolio">
+    <div class="portfolio-heading">
+      <h2>Presentaciones</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="card__img">
+          <img src="../resources/img/inteligencia.jpg" alt="" class="card-img" />
+        </div>
+        <div class="card__title">
+          <h2>Inteligencia financiera</h2>
+        </div>
+        <div class="button-content">
+          <a href="../resources/pdf/Inteligencia financiera.pdf" target="_blank" class="button"
+            >Ver presentación</a
+          >
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>

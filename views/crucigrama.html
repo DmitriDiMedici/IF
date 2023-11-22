@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Crucigrama</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="../styles/styleCruc.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container crosswordDisplay">
+  
+<div class="row">
+<!-- Create & Play buttons required for user generated crossword - disabled for Proscribed questions -->
+    <div class="btn btn-default disabled" id="btnCreate">Create</div>
+    <div class="btn btn-default disabled" id="btnPlay">Play</div>
+  
+    <div class="btn btn-default" id="btnReset">Reset</div>
+     <div class="btn btn-default" id="btnCheck">Check Answers</div>
+  </div>
+
+  <div class="center crossword" id="crossword"></div>
+  
+<div class="btn" id="btnGen">Generate</div>
+  
+  
+  <div class="col-lg-6 ">
+  <div class="clueBlock" id="cluesAcross">
+    <div class="clueDirection" id="directionAcross">Horizontal</div>
+
+    <div class="line">
+      <input class="word" type="text" value="Alquiler" />
+      <span class="lineNum"></span>
+      <input class="clue" value="El gasto de pagar la renta de una casa" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Seguro" />
+      <span class="lineNum"></span>
+      <input class="clue" value="Cosa que pagas para recibir atención médica" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Ocio" />
+      <span class="lineNum"></span>
+      <input class="clue" value="Gastos en diversión y cosas no productivas" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Ahorro"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Acción de guardar dinero para después" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Presupuesto"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Dinero guardado con un propósito en específico" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Deudas"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Dinero que se le debe a algo o alguien" />
+    </div>
+
+    <div class="line">
+      <input class="word" type="text" value="Inversión"/>
+      <span class="lineNum"></span>
+      <input class="clue" value="Dinero guardado que se pone a trabajar en formas de acciones, fondos de ahorro, retiro, etc." />
+    </div>
+
+    <!-- AQUI SON 8-->
+        
+    </div>
+  </div>
+  
+  
+  <div class="col-lg-6">
+  <div class="clueBlock" id="cluesDown">
+    <div class="clueDirection" id="directionDown">Vertical</div>
+  </div>
+
+</div>
+</div>
+
+
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script  src="../js/scriptCruc.js"></script>
+
+</body>
+</html>
